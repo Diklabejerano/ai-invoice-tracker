@@ -1,0 +1,30 @@
+BrightBox Design Studio
+221 Portobello Road
+London W11 1LU, United Kingdom
+VAT: GB 234567890
+
+INVOICE
+
+Invoice Number: BB-INV-2026-1142
+Invoice Date: June 30, 2026
+Due Date: July 30, 2026
+
+Bill To:
+Sample Company Ltd.
+finance@samplecompany.com
+
+Description                                          Qty     Unit Price      Amount
+-------------------------------------------------------------------------------------
+Logo redesign — final concept                          1       £  800.00     £  800.00
+Brand style guide (12 pages)                           1       £  650.00     £  650.00
+Social media asset pack (30 pieces)                    1       £  480.00     £  480.00
+Revision round (2 iterations)                          2       £   90.00     £  180.00
+-------------------------------------------------------------------------------------
+                                         Subtotal:                            £ 2,110.00
+                                         VAT (20%):                           £   422.00
+                                         TOTAL:                               £ 2,532.00
+
+Currency: GBP
+Payment Terms: Net 30
+
+Thank you.

@@ -1,0 +1,28 @@
+MainStream Cloud Inc.
+1250 Market Street, Suite 400
+San Francisco, CA 94102
+Tax ID: US-EIN 84-2938471
+
+INVOICE
+
+Invoice Number: MSC-2026-047812
+Invoice Date: July 15, 2026
+Due Date: August 14, 2026
+
+Bill To:
+Test User
+test.user@example.com
+Ramat Gan, Israel
+
+Description                                          Qty     Unit Price    Amount
+------------------------------------------------------------------------------------
+Cloud Storage Pro Plan (Aug 2026 monthly)             1        $ 29.99     $ 29.99
+------------------------------------------------------------------------------------
+                                        Subtotal:                          $ 29.99
+                                        Tax (0%):                          $  0.00
+                                        TOTAL:                             $ 29.99
+
+Payment Terms: Auto-billed to card on file
+Currency: USD
+
+Thank you for your business.

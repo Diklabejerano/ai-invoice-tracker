@@ -1,0 +1,33 @@
+Jordan Rivera Freelance Development
+Berlin, Germany
+Tax ID: DE 987654321
+
+INVOICE #JR-2026-108
+
+Invoice Date: July 08, 2026
+Due Date: July 22, 2026 (Net 14)
+
+Bill To:
+Test Client
+billing@testclient.example
+
+Project: Web platform integration work — June 2026
+
+Description                                          Hours    Rate      Amount
+------------------------------------------------------------------------------
+API integration development                            18      € 85     € 1,530.00
+Bug fixes and QA support                                7      € 85     €   595.00
+Documentation and handoff                               4      € 85     €   340.00
+------------------------------------------------------------------------------
+                                       Subtotal:                        € 2,465.00
+                                       VAT (19%):                       €   468.35
+                                       TOTAL:                           € 2,933.35
+
+Currency: EUR
+Payment via SEPA bank transfer.
+
+Bank details:
+IBAN: DE00 0000 0000 0000 0000 00
+BIC: SAMPBIC0000
+
+Thank you for the collaboration.
