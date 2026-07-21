@@ -1,8 +1,6 @@
 # AI Invoice Tracker
 
-An n8n workflow that reads vendor and subscription invoices from your Gmail, extracts the details with AI, and logs them to a Google Sheet. Handles Hebrew and English. Built with n8n + Anthropic Claude Sonnet 5.
-
-> **Portfolio project.** The tool works and I use it myself. It requires n8n + Anthropic API setup (~30 min for first-time n8n users). If you just want to see how it works, watch the demo. To run it yourself, follow the setup guide below.
+A tool I built to solve a real personal pain and made configurable so others can use it too. It watches your Gmail for invoices, reads them with AI, and logs the details into a Google Sheet automatically. Handles Hebrew and English. Built with n8n + Anthropic Claude Sonnet 5.
 
 ## Who it's for
 
@@ -52,7 +50,7 @@ Gmail label -> Get message + PDF -> Extract text -> Claude API
 - **n8n account.** Free tier works. [n8n.io](https://n8n.io)
 - **Anthropic API key with $5+ credits.** [console.anthropic.com](https://console.anthropic.com). Cost is ~1-2 cents per invoice.
 - **Google account** with Gmail and Google Sheets access
-- **30-45 minutes** for first-time n8n setup
+- **~20 minutes** for first-time setup
 
 ## Setup guide
 
@@ -107,13 +105,6 @@ Save. Toggle **Active** (top-right). Email yourself a PDF invoice. Apply the Gma
 - **Google Sheets rate limit.** Increase the Wait node from 3 to 5+ seconds.
 - **No PDF attachment found.** Email had no PDF. Skipped by design.
 - **Nothing lands in sheet.** Check Executions log. Usually: workflow not Active, or a Google Sheets node points to the wrong document.
-
-## What I learned building this
-
-- Sonnet 5 returns extended thinking as a separate content block before the text. Position-based indexing breaks. Use `content.find(c => c.type === "text")`.
-- Defensive parsing with guard clauses beats crashing on unexpected response shapes.
-- External APIs have rate limits that only show up under real load. Design for them upfront, not after they bite.
-- Keep the LLM in fuzzy work (extraction, classification). Keep deterministic logic in code (routing, retries).
 
 ## Tech stack
 
